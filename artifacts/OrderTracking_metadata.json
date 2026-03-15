@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "enum OrderTracking.OrderStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "orderStatus",
+				"outputs": [
+					{
+						"internalType": "enum OrderTracking.OrderStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum OrderTracking.OrderStatus",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "setStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/1)enum.sol": "OrderTracking"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/1)enum.sol": {
+			"keccak256": "0x3b378f1d29124f6e7dc9ea74b5ae6d2b2f77d27ff8f8f6f1ffb722aa680e2f7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cf5e204813199e6a65958001b8fcce008c3571e77c86674e1e13e8cd3f6c04f4",
+				"dweb:/ipfs/QmQvEfg8omHaoYMuc86rzbRsgWGQD2xHHowwBfTFY4XP9h"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "choice",
+				"outputs": [
+					{
+						"internalType": "enum pizzaa.pizzasize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getchoice",
+				"outputs": [
+					{
+						"internalType": "enum pizzaa.pizzasize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setlarge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/1.1)enum.sol": "pizzaa"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/1.1)enum.sol": {
+			"keccak256": "0xc6706ea9801494c44e3c57f8a1ce2bd0fcae55a0d137e9008ec02ecaef18caf9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5af36365165e5829f187f001527ff66637efd5b028ab6462d68fca03e74d969",
+				"dweb:/ipfs/QmecfLW5qp5oX7ii91MLa8XzgA18j2g8kyUYHP8SsL3Unm"
+			]
+		}
+	},
+	"version": 1
+}
