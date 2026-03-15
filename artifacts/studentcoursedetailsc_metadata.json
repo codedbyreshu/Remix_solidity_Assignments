@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum studentcoursedetailsc.coursestatus",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "addstudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "setstudent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum studentcoursedetailsc.coursestatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalstudents",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"totalstudents()": {
+					"notice": "function setstudent(uint _index) public  view returns(uint256,string memory,uint256,coursestatus){ student memory s = student1[_index]; return (s.id,s.name,s.age,s.status);*"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/Assignment5(13-03-2026)/4)Studentcoursedetails.sol": "studentcoursedetailsc"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/Assignment5(13-03-2026)/4)Studentcoursedetails.sol": {
+			"keccak256": "0x3efedc0e7014a46ba0f034d909480f3d8b4a119454f773176fd8df2991345e5a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d2037d36d6e9ef2bc02adae30421666e88cd18d8b6b8e39e74e42c36084b94c",
+				"dweb:/ipfs/QmNZ6UfGXSmM5LrXDHTv1C1VuhQhybviMW366x1vJrdmfT"
+			]
+		}
+	},
+	"version": 1
+}
