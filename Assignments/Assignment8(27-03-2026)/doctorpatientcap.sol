@@ -33,7 +33,7 @@ contract PatientManagement {
     mapping(uint => Patient) public patients;
     mapping(address => bool) public doctors;
 
-    uint public patientCount; // ✅ added
+    uint public patientCount; // To keep track of the number of patients added
 
     event DoctorAdded(address doctor);
     event DoctorRemoved(address doctor);
@@ -68,7 +68,7 @@ contract PatientManagement {
             status: Status.Admitted
         });
 
-        patientCount++; // ✅ increment
+        patientCount++; // Increment the patient count increment
 
         emit PatientAdded(_id, _name, msg.sender);
     }
