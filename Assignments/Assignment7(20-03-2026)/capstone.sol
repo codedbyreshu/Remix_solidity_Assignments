@@ -39,7 +39,7 @@ contract wallet{
     //mapping with address
     mapping(address=>user)users;
 
-    //event
+    //event adduser
     event adduser(uint _id,string _name,uint _walletbalance,userstatus _status );
 
     //Function to add user
@@ -48,13 +48,16 @@ contract wallet{
         //emit
         emit adduser(_id,_name_walletbalance,_status);
     }
-    Unable to get a response from AI server
+    //event updateuser
+    event Updateuser(uint _id,string _name,uint _walletbalance,userstatus _status);
 
     //Function to update user
-    functionupdateuser(uint _id)public onlyowner (uint _id,string memory _name,uint _walletbalance,userstatus _status ){
-        users[_id] =use(_id,_name,_walletbalance,_status)
+    function updateuser(uint _id)public onlyowner (uint _id,string memory _name,uint _walletbalance,userstatus _status ){
+        users[_id] =use(_id,_name,_walletbalance,_status);
+        //emit updateuser
+        emit Updateuser(_id,_name_walletbalance,_status);
     }
-
+    function approve (uint )
 
 
 }
