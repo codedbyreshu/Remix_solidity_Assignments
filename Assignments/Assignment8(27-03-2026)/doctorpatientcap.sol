@@ -68,7 +68,7 @@ contract PatientManagement {
             status: Status.Admitted
         });
 
-        patientCount++; // Increment the patient count increment
+        patientCount++; // Increment the patient count for the doctor
 
         emit PatientAdded(_id, _name, msg.sender);
     }
