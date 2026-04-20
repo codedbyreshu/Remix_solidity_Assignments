@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_coursenames",
+						"type": "string"
+					}
+				],
+				"name": "addcourse",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getstudent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "enum studentRegistrationSystem.studentstatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_course",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_studentaddress",
+						"type": "address"
+					},
+					{
+						"internalType": "enum studentRegistrationSystem.studentstatus",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "registerstudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/Assignment6(16-03-2026)/StudentRS.sol": "studentRegistrationSystem"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/Assignment6(16-03-2026)/StudentRS.sol": {
+			"keccak256": "0xb9946e7bd499691051d9094f6fd08b16ac540d5d6017be771d4d9d61eedda6f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1cb51084fbd2c3ec5c270da569c85cd6d3e03b188b8231d5863f5f674e76b5fd",
+				"dweb:/ipfs/Qmdhq4b7kaGwPfecsCfGFvHmMhtDjdwzdezCvnuTJJrQfZ"
+			]
+		}
+	},
+	"version": 1
+}

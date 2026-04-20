@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_productnames",
+						"type": "string"
+					}
+				],
+				"name": "addproduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_orderid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_productname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_customer",
+						"type": "address"
+					},
+					{
+						"internalType": "enum ProductOrderManagement.orderstatus",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "createorder",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_orderid",
+						"type": "uint256"
+					}
+				],
+				"name": "getorder",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "enum ProductOrderManagement.orderstatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/Assignment6(16-03-2026)/ProductOm.sol": "ProductOrderManagement"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/Assignment6(16-03-2026)/ProductOm.sol": {
+			"keccak256": "0xd7b02e61de1695496590b43bd8e77c069caae23b3478df9e60cef78106e2570b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54a98c820ad418b7de30e8e52d67586575e9023035c22731a778ce77322ea521",
+				"dweb:/ipfs/QmTootXjCZrB7iDqvJiFYBiY5gcTnwPtj2M648LvL9N5y9"
+			]
+		}
+	},
+	"version": 1
+}

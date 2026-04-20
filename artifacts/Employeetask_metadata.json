@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_tasknames",
+						"type": "string"
+					}
+				],
+				"name": "addtaskname",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_taskid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_taskname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_employeename",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_employee",
+						"type": "address"
+					},
+					{
+						"internalType": "enum Employeetask.Taskstatus",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "createtask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_taskid",
+						"type": "uint256"
+					}
+				],
+				"name": "gettask",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "enum Employeetask.Taskstatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/Assignment6(16-03-2026)/Employeetask.sol": "Employeetask"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/Assignment6(16-03-2026)/Employeetask.sol": {
+			"keccak256": "0x902eaaa796ab8a977206a3d6edc30cd57848930c0f2b87138a6ee8fbf8556dae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://668911e22dfc233674f45ea13863bda3ed879fa8fa271631e0482933dd1681a5",
+				"dweb:/ipfs/QmfNGhspqqtEcGLnrzJNs3Dpekzy5gJHXbfRojUwYe6n4B"
+			]
+		}
+	},
+	"version": 1
+}
